@@ -168,7 +168,7 @@ Elements should pair in the form of: `(\"Channel name\" . \"stream-address\")'"
   :type '(repeat (string :tag "Extension"))
   :group 'empv)
 
-(defcustom empv-audio-file-extensions '("mp3" "ogg" "wav" "m4a" "flac" "aac")
+(defcustom empv-audio-file-extensions '("mp3" "ogg" "wav" "m4a" "flac" "aac" "m3u")
   "List of audio file extensions."
   :type '(repeat (string :tag "Extension"))
   :group 'empv)
